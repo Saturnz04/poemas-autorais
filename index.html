@@ -51,7 +51,7 @@
       agora eu já o faço por conta própria.<br>
       Pois se eu tiver mesmo que viver,<br>
       então que seja uma vida microscópia.<br>
-      <br>
+      <br></h5>
     </div>
     <div>
 
@@ -194,7 +194,7 @@
     <div>
       <h3>Shopping List</h3>
       <h5>I'm tired of living<br>
-        I wish I was a rock<br>
+        I wish I was <span class="random-noun"></span><br>
         I wish I had no real connections<br>
         I wish I had no obligations<br>
         I wish I could die and people could move on<br>
@@ -212,7 +212,7 @@
         Is that I didn't need to wish<br>
         All I wish for<br>
         Is that I didn't exist<br>
-        But they don't have that in the supermarket.<br>
+        But they don't have that in the <span class="random-place"></span>.<br>
       </h5>
   </div>
     <div class="hard"></div>
@@ -222,7 +222,18 @@
   <script src="jquery.js"></script>
   <script src="turn.js"></script>
   <script>
-    $(".flipbook").turn();
+    $(document).ready(function() {
+      const nouns = ["a rock", "you", "free", "a task", "a track", "a dog", "a sack", "more than a mask", "sleeping", "smiling"];
+      const places = ["supermarket", "convenience store", "grocery store", "stock"];
+
+      const chosenNoun = nouns[Math.floor(Math.random() * nouns.length)];
+      const chosenPlace = places[Math.floor(Math.random() * places.length)];
+
+      $('.random-noun').text(chosenNoun);
+      $('.random-place').text(chosenPlace);
+
+      $(".flipbook").turn();
+    });
   </script>
 </body>
 
