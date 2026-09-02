@@ -4,265 +4,373 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <title>Poemas Autorais</title>
+  <style>
+    body { margin: 0; height: 100vh; display: flex; flex-direction: column; overflow: hidden; background: #f2ede4; }
+    .paper-texture { background-image: radial-gradient(#d1ccc0 0.5px, transparent 0.5px); background-size: 24px 24px; opacity: 0.2; }
+    .book-shadow { box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); }
+    .geometric-frame { border: 2px solid #5a5a40; outline: 1px solid #5a5a40; outline-offset: 8px; }
+  </style>
 </head>
 
-<body>
-  <div class="flipbook">
-    <div class="hard">Coleção de Poemas Autorais <small>Arraste para abrir!</small></div>
-    <div class="hard">Autor: Luiz Fernando de Oliveira Corrêa</div>
-    <div>
-      <small>Agora, tente puxar (ou clicar) em uma das bordas!</small>
-      <small></small>
-    </div>
-    <div>
-      <h3>Estáticos</h3>
-
-      <h5>Estão todos parados<br>
-      no tempo, congelados.<br>
-      presos em uma rotina<br>
-      no modo automático<br>
-      <br>
-      Se recusaram a viver<br>
-      e continuar a crescer.<br>
-      O que a vida os reserva?<br>
-      Bem, envelhecer.<br>
-      <br>
-      Tempo vai e tempo vem<br>
-      e nada novo se têm.<br>
-      E nem tem como,<br>
-      você não deixa.<br>
-      Se acostumou<br>
-      e não presta queixa.<br>
-      <br>
-      Tempo vai e tempo vem<br>
-      e você sabe como ninguém<br>
-      É hora de atitude,<br>
-      sem mas e sem porém.<br>
-      Como vai atingir a plenitude<br>
-      se se recusa a ir além?</h5>
-    </div>
-    <div>
-
-      <h3>Insignificante</h3>
-
-      <h5>Cansado de me machucar sem querer,<br>
-      agora eu já o faço por conta própria.<br>
-      Pois se eu tiver mesmo que viver,<br>
-      então que seja uma vida microscópia.<br>
-      <br></h5>
-    </div>
-    <div>
-
-      <h3>Baratas, nojentas barantas,</h3>
-      <h5>que se rastejam sob minha pele.<br>
-      Bem quando meu corpo se aquieta<br>
-      e minha cabeça estremece.<br>
-      <br>
-      Baratas, agonizantes baratas,<br>
-      não me deixam mais dormir!<br>
-      Sempre ao abrir os olhos,<br>
-      não se encontram mais aqui.<br>
-      <br>
-      Baratas, barulhentas baratas.<br>
-      Estou perdendo a cabeça.<br>
-      Onde elas se escondem?<br>
-      Não há buracos, não há sujeiras.<br>
-      <br>
-      Baratas, baratas, baratas...<br>
-      A noite finalmente acabou.<br>
-      Não estou pronto para o dia,<br>
-      preso na noite estou.<br>
-      </h5>
-    </div>
-    <div>
-
-      <h3>Triste</h3>
-      <h5>Quando a tristeza está ao meu lado,<br>
-      me sinto preso, pesado,<br>
-      por correntes amarrado,<br>
-      em um mundo de desespero.<br>
-      E aos próprios pés limitado,<br>
-      impedido e impossibilitado<br>
-      a fazer os meus desejos.<br>
-      <br>
-      Amarrado em rotinas,<br>
-      carregado de amarguras,<br>
-      vendo por detrás de cortinas,<br>
-      com machucados sem ataduras,<br>
-      tentando seguir doutrinas,<br>
-      mas sem sucesso.<br>
-      </h5>
-    </div>
-    <div>
-      <h3>Alegre</h3>      
-      <h5>Quando a alegria está a ascender,<br>
-      me sinto leve, livre.<br>
-      Eu faço o tempo valer.<br>
-      Fazendo o que eu quiser,<br>
-      não importa o que me disser.<br>
-      O meu destino não está com você.<br>
-      Eu deixo o futuro para quando vier<br>
-      e o passado desaparecer,<br>
-      pois 'você decide quem você é'...<br>
-      Com atitudes, claro,<br>
-      e não com o que diz fazer.<br>
-      </h5>
-    </div>
-    <div>
-
-     <h3>Sensações Estranhas,</h3>
-     <h5>Sensações.<br>
-     De quando tiramos coragem<br>
-     das estranhas<br>
-     para fazer boas ações<br>
-     a quem nos mal fazem,<br>
-     com deboches e gozações.<br>
-     <br>
-     Ódio, remorso,<br>
-     você sente tudo,<br>
-     até o que não devia sentir.<br>
-     <br>
-     Amor, compaixão,<br>
-     e o sinal que ele fez com a mão?<br>
-     Sera que é pedido de perdão?<br>
-     <br>
-     No final acho que até ele sentiu<br>
-     aquela sensação.<br>
-     </h5>
-    </div>
-
-    <div>
-      <h3>Um abraço de um amigo</h3>
-      <h6>que você achava perdido.<br>
-      Encontra aconchego, encontra abrigo.<br>
-      Sensações estranhas e coração partido.<br>
-      <br>
-      Você acaba sempre perdendo quem está contigo,<br>
-      então se pergunta: "Qual o sentido?"<br>
-      O que tu fizeste para te dar esse castigo?<br>
-      <br>
-      E aí você se lembra de todos que partiram.<br>
-      Se sente mal por não ter pensado nisso.<br>
-      Será que algum dia tu irá esclarecer<br>
-      todas as coisas que um dia você deixou de dizer?<br>
-      Todas as coisas que um dia você deixou de fazer?<br>
-      Deixar de ser tão submisso?<br>
-      Fazer algo valer...<br>
-      <br>
-      Porque é muito difícil olhar para trás<br>
-      sem se arrepender.<br>
-      Porque é difícil ter paz<br>
-      pensando no que vai acontecer.<br>
-      <br>
-      Seu coração se agarra<br>
-      ás suas pessoas amadas,<br>
-      prendendo com correntes e amarguras.<br>
-      Mas elas fogem assustadas.<br>
-      E você fica só,<br>
-      lembrando do abraço, 'que dó!'<br>
-      Ele não te sufoca,<br>
-      ele deixa suas partes montadas.</h6>
-    </div>
-
-    <div>
-      <h3>Falsa Vingança</h3>
-      <h5>Um dia, eu tive um sonho.<br>
-      Um sonho sobre um guerreiro espartano.<br>
-      Ele lutava pela vida e pelos amigos,<br>
-      em uma guerra violenta e sem fim<br>
-      <br>
-      ele viu seus companheiros morrer.<br>
-      Aqueles que achou que estaria sempre ao seu lado,<br>
-      aqueles que ele sempre confiou<br>
-      e que sempre estavam ao seu lado.<br>
-      <br>
-      No meio do sangue e do massacre,<br>
-      ele se ajoelha, exausto.<br>
-      Não tem mais forças para lutar,<br>
-      não tem mais medo da morte.<br>
-      <br>
-      Distrai no meio da luta<br>
-      pensando em tudo que perdeu,<br>
-      em tudo que não consegue mais fazer.<br>
-      Raiva de tudo e todos,<br>
-      confunde vigança pelo que seria, apenas, desejo de morrer
-    </h5>
-    </div>
-
-    <div>
-      <h3>Shopping List</h3>
-      <h5>I'm tired of living<br>
-        I wish I was <span class="random-noun"></span><br>
-        I wish I had no real connections<br>
-        I wish I had no obligations<br>
-        I wish I could die and people could move on<br>
-        I wish I wasn't so important for dear ones<br>
-        <br>
-        If a genie came out of nowhere<br>
-        I'd knew exactly what to ask<br>
-        Back then, my wish would make people's lifes better<br>
-        <br> 
-        As I grew up,<br> 
-        my wish changed,<br> 
-        making only my life better<br> 
-        <br>
-        And today all I wish for<br>
-        Is that I didn't need to wish<br>
-        All I wish for<br>
-        Is that I didn't exist<br>
-        But they don't have that in the <span class="random-place"></span>.<br>
-      </h5>
+<body class="font-serif relative text-[#2d2d2a]">
+  <div id="language-selection" class="w-full h-full flex flex-col relative overflow-hidden">
+    <div class='absolute inset-0 paper-texture pointer-events-none'></div> 
+    <div class='absolute top-8 left-8 flex items-center gap-2 opacity-60'> 
+      <div class='w-8 h-[1px] bg-[#5a5a40]'></div> 
+      <span class='text-[10px] uppercase tracking-[0.2em] font-sans'>The Poetry Archive</span> 
+    </div> 
+    <div class='flex-1 flex items-center justify-center px-12 z-10 relative'> 
+      <div class='w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-16 items-stretch'> 
+        <div class='flex flex-col justify-center text-left md:border-r border-[#5a5a40]/20 md:pr-16'> 
+          <h1 class='text-6xl mb-6 leading-tight italic'>Luiz's<br>Personal Journal</h1> 
+          <p class='text-lg leading-relaxed text-[#5a5a40] mb-12'>Original poetry written over time, most of it gathered from a old, torn-up school notebook. At least here they won't be dust.</p> 
+        </div> 
+        <div class='flex flex-col justify-center gap-8'> 
+          <div class='geometric-frame p-10 bg-white/40 backdrop-blur-sm flex flex-col gap-6 relative z-10'> 
+            <h2 class='text-xs font-sans tracking-[0.3em] uppercase text-center mb-4 font-bold text-[#5a5a40]'>Select Language / Idioma</h2> 
+            <button onclick="selectLanguage('en')" class='w-full group relative py-6 px-8 bg-[#5a5a40] text-white flex justify-between items-center transition-all hover:bg-[#484833] cursor-pointer'> 
+              <div class='flex flex-col items-start text-left'> 
+                <span class='text-xl tracking-wide'>English</span> 
+                <span class='text-[10px] uppercase opacity-70 font-sans tracking-tighter'>Brief Edition • 2 Poems</span> 
+              </div> 
+              <svg class='w-5 h-5 transform transition-transform group-hover:translate-x-1' fill='none' stroke='currentColor' viewBox='0 0 24 24' stroke-width='2'><path d='M9 5l7 7-7 7'/></svg> 
+            </button> 
+            <button onclick="selectLanguage('pt')" class='w-full group relative py-6 px-8 border-2 border-[#5a5a40] text-[#5a5a40] flex justify-between items-center transition-all hover:bg-[#5a5a40] hover:text-white cursor-pointer bg-transparent'> 
+              <div class='flex flex-col items-start text-left'> 
+                <span class='text-xl tracking-wide'>Português</span> 
+                <span class='text-[10px] uppercase opacity-70 font-sans tracking-tighter'>Edição Longa • 8 Poemas</span> 
+              </div> 
+              <svg class='w-5 h-5 transform transition-transform group-hover:translate-x-1' fill='none' stroke='currentColor' viewBox='0 0 24 24' stroke-width='2'><path d='M9 5l7 7-7 7'/></svg> 
+            </button> 
+          </div> 
+          <p class='text-[11px] text-center italic opacity-60 text-[#5a5a40]'>Proceeding will initialize the interactive flipbook experience</p> 
+        </div> 
+      </div> 
+    </div> 
+    <div class='absolute bottom-12 right-12 flex gap-12 text-[10px] font-sans uppercase tracking-[0.2em] opacity-40 pointer-events-none'> 
+      <span>Digital Folio No. 001</span> 
+    </div> 
+    <div class='absolute top-0 right-1/4 h-32 w-[1px] bg-gradient-to-b from-[#5a5a40] to-transparent pointer-events-none'></div> 
+    <div class='absolute bottom-0 left-1/3 h-48 w-[1px] bg-gradient-to-t from-[#5a5a40] to-transparent opacity-30 pointer-events-none'></div> 
   </div>
 
-  <div>
-    <h3>The fan and the artist</h3>
-    <h5>I'm my biggest fan.<br>
-      I love everything that I made.<br>
-      It fills me with joy to see my works.<br>
-      It's how I learned to smile.<br>
-      And when I forgot how to be happy,<br>
-      it taught me about happiness again.<br>
-      <br>
-      My favorite artist,<br>
-      me,<br>
-      is going through a break.<br>
-      A hiatus, an art block,<br>
-      call it whatever you want.<br>
-      <br>
-      Still...<br>
-      <br>
-      I wish for more art.<br>
-      I wish for more happiness.<br>
-      He tries, I know — I'm talking about myself —<br>
-      but nothing comes out of his pen.<br>
-      <br>
-      Was the break too long?<br>
-      Did the talent run out?<br>
-      <br>
-      I wish to continue,<br>
-      and I wish for my biggest fan to know that.
-    </h5>
-  </div>
-    <div class="hard"></div>
-    <div class="hard">Obrigado!</div>
+  <div id="book-container" style="display: none;" class="w-full h-full relative">
+    <div class='absolute inset-0 paper-texture pointer-events-none'></div> 
+    <button onclick="goBack()" class="absolute top-8 left-8 z-50 group flex items-center gap-3 py-3 px-6 bg-[#f2ede4]/80 backdrop-blur-md border border-[#5a5a40]/30 hover:bg-[#5a5a40] hover:text-white transition-all text-[#5a5a40] cursor-pointer">
+      <svg class='w-4 h-4 transform transition-transform group-hover:-translate-x-1' fill='none' stroke='currentColor' viewBox='0 0 24 24' stroke-width='2'><path d='M15 19l-7-7 7-7'/></svg>
+      <span class="text-xs uppercase tracking-widest font-sans font-semibold">Retornar / Go Back</span>
+    </button>
+    
+    <div class="flipbook" id="flipbook-pt" style="display: none;">
+      <div class="hard">Coleção de Poemas Autorais <small>Arraste para abrir!</small></div>
+      <div class="hard">Autor: Luiz Fernando de Oliveira Corrêa</div>
+      <div>
+        <small>Agora, tente puxar (ou clicar) em uma das bordas!</small>
+        <small></small>
+      </div>
+      <div>
+        <h3>Estáticos</h3>
+        <p>Estão todos parados<br>
+        no tempo, congelados.<br>
+        presos em uma rotina<br>
+        no modo automático<br>
+        <br>
+        Se recusaram a viver<br>
+        e continuar a crescer.<br>
+        O que a vida os reserva?<br>
+        Bem, envelhecer.<br></p>
+      </div>
+
+      <div>
+        <p>Tempo vai e tempo vem<br>
+        e nada novo se têm.<br>
+        E nem tem como,<br>
+        você não deixa.<br>
+        Se acostumou<br>
+        e não presta queixa.<br>
+        <br>
+        Tempo vai e tempo vem<br>
+        e você sabe como ninguém<br>
+        É hora de atitude,<br>
+        sem mas e sem porém.<br>
+        Como vai atingir a plenitude<br>
+        se se recusa a ir além?</p>
+      </div>
+      <div>
+        <h3>Insignificante</h3>
+        <p>Cansado de me machucar sem querer,<br>
+        agora eu já o faço por conta própria.<br>
+        Pois se eu tiver mesmo que viver,<br>
+        então que seja uma vida microscópia.<br>
+        <br></p>
+      </div>
+      <div>
+        <h3>Baratas, nojentas baratas,</h3>
+        <p>que se rastejam sob minha pele.<br>
+        Bem quando meu corpo se aquieta<br>
+        e minha cabeça estremece.<br>
+        <br>
+        Baratas, agonizantes baratas,<br>
+        não me deixam mais dormir!<br>
+        Sempre ao abrir os olhos,<br>
+        não se encontram mais aqui.<br>
+        <br>
+        Baratas, barulhentas baratas.<br>
+        Estou perdendo a cabeça.<br>
+        Onde elas se escondem?<br>
+        Não há buracos, não há sujeiras.<br>
+        <br>
+        Baratas, baratas, baratas...<br>
+        A noite finalmente acabou.<br>
+        Não estou pronto para o dia,<br>
+        preso na noite estou.<br>
+        </p>
+      </div>
+      <div>
+        <h3>Triste</h3>
+        <p>Quando a tristeza está ao meu lado,<br>
+        me sinto preso, pesado,<br>
+        por correntes amarrado,<br>
+        em um mundo de desespero.<br>
+        E aos próprios pés limitado,<br>
+        impedido e impossibilitado<br>
+        a fazer os meus desejos.<br>
+        <br>
+        Amarrado em rotinas,<br>
+        carregado de amarguras,<br>
+        vendo por detrás de cortinas,<br>
+        com machucados sem ataduras,<br>
+        tentando seguir doutrinas,<br>
+        mas sem sucesso.<br>
+        </p>
+      </div>
+      <div>
+        <h3>Alegre</h3>      
+        <p>Quando a alegria está a ascender,<br>
+        me sinto leve, livre.<br>
+        Eu faço o tempo valer.<br>
+        Fazendo o que eu quiser,<br>
+        não importa o que me disser.<br>
+        O meu destino não está com você.<br>
+        Eu deixo o futuro para quando vier<br>
+        e o passado desaparecer,<br>
+        pois 'você decide quem você é'...<br>
+        Com atitudes, claro,<br>
+        e não com o que diz fazer.<br>
+        </p>
+      </div>
+      <div>
+        <h3>Um abraço de um amigo</h3>
+        <p>que você achava perdido.<br>
+        Encontra aconchego, encontra abrigo.<br>
+        Sensações estranhas e coração partido.<br>
+        <br>
+        Você acaba sempre perdendo quem está contigo,<br>
+        então se pergunta: "Qual o sentido?"<br>
+        O que tu fizeste para te dar esse castigo?<br>
+        <br>
+        E aí você se lembra de todos que partiram.<br>
+        Se sente mal por não ter pensado nisso.<br>
+        Será que algum dia tu irá esclarecer<br>
+        todas as coisas que um dia você deixou de dizer?<br>
+        Todas as coisas que um dia você deixou de fazer?<br>
+        Deixar de ser tão submisso?<br>
+        Fazer algo valer...<br></p>
+      </div>
+      <div>
+        <p>Porque é muito difícil olhar para trás<br>
+        sem se arrepender.<br>
+        Porque é difícil ter paz<br>
+        pensando no que vai acontecer.<br>
+        <br>
+        Seu coração se agarra<br>
+        ás suas pessoas amadas,<br>
+        prendendo com correntes e amarguras.<br>
+        Mas elas fogem assustadas.<br>
+        E você fica só,<br>
+        lembrando do abraço, 'que dó!'<br>
+        Ele não te sufoca,<br>
+        ele deixa suas partes montadas.</p>
+      </div>
+      <div>
+       <h3>Sensações Estranhas,</h3>
+       <p>Sensações.<br>
+       De quando tiramos coragem<br>
+       das estranhas<br>
+       para fazer boas ações<br>
+       a quem nos mal fazem,<br>
+       com deboches e gozações.<br>
+       <br>
+       Ódio, remorso,<br>
+       você sente tudo,<br>
+       até o que não devia sentir.<br>
+       <br>
+       Amor, compaixão,<br>
+       e o sinal que ele fez com a mão?<br>
+       Sera que é pedido de perdão?<br>
+       <br>
+       No final acho que até ele sentiu<br>
+       aquela sensação.<br>
+       </p>
+      </div>
+      <div>
+        <h3>Falsa Vingança</h3>
+        <p>Um dia, eu tive um sonho.<br>
+        Um sonho sobre um guerreiro espartano.<br>
+        Ele lutava pela vida e pelos amigos,<br>
+        em uma guerra violenta e sem fim<br>
+        <br>
+        ele viu seus companheiros morrer.<br>
+        Aqueles que achou que estaria sempre ao seu lado,<br>
+        aqueles que ele sempre confiou<br>
+        e que sempre estavam ao seu lado.<br>
+        <br>
+        No meio do sangue e do massacre,<br>
+        ele se ajoelha, exausto.<br>
+        Não tem mais forças para lutar,<br>
+        não tem mais medo da morte.<br>
+        <br>
+        Distrai no meio da luta<br>
+        pensando em tudo que perdeu,<br>
+        em tudo que não consegue mais fazer.<br>
+        Raiva de tudo e todos,<br>
+        confunde vigança pelo que seria, apenas, desejo de morrer
+      </p>
+      </div>
+      <div class="hard"></div>
+      <div class="hard">Obrigado!</div>
+    </div>
+
+    <div class="flipbook" id="flipbook-en" style="display: none;">
+      <div class="hard">Collection of Original Poems <small>Drag to open!</small></div>
+      <div class="hard">Author: Luiz Fernando de Oliveira Corrêa</div>
+      <div>
+        <small>Now, try pulling (or clicking) on one of the edges!</small>
+        <small></small>
+      </div>
+      <div>
+        <h3>The fan and the artist</h3>
+        I'm my biggest fan.<br>
+        I love everything that I made.<br>
+        It fills me with joy to see my works.<br>
+        It's how I learned to smile.<br>
+        And when I forgot how to be happy,<br>
+        it taught me all about happiness again.<br>
+        <br>
+        My favorite artist,<br>
+        me,<br>
+        is going through a break.<br>
+        A hiatus, an art block,<br>
+        call it whatever you want.<br>
+        <br>
+        
+      </div>
+      <div>
+        Still...<br>
+        <br>
+        I wish for more art.<br>
+        I wish for more happiness.<br>
+        He tries, I know — I'm talking about myself —<br>
+        but nothing comes out of his pen.<br>
+        <br>
+        Was the break too long?<br>
+        Did the talent run out?<br>
+        <br>
+        I wish to continue,<br>
+        and I wish for my biggest fan to know that.
+      </div>
+      <div>
+        <h3>Shopping List</h3>
+        <p>I'm tired of living<br>
+          I wish I was <span class="random-noun"></span><br>
+          I wish I had no real connections<br>
+          I wish I had no obligations<br>
+          I wish I could die and people could move on<br>
+          I wish I wasn't so important for dear ones<br>
+          <br>
+          If a genie came out of nowhere<br>
+          I'd knew exactly what to ask<br>
+          Back then, my wish would make people's lifes better<br>
+          <br> 
+          As I grew up,<br> 
+          my wish changed,<br> 
+          making only my life better<br> 
+          <br>
+          And today all I wish for<br>
+          Is that I didn't need to wish<br>
+          All I wish for<br>
+          Is that I didn't exist<br>
+          But they don't have that in the <span class="random-place"></span>.<br>
+        </p>
+      </div>
+      <div class="hard"></div>
+      <div class="hard">Thank you!</div>
+    </div>
   </div>
 
   <script src="jquery.js"></script>
   <script src="turn.js"></script>
   <script>
+    let ptInitialized = false;
+    let enInitialized = false;
+
+    function randomizeEnWords() {
+        const nouns = ["a rock", "you", "free", "a task", "a track", "a dog", "a sack", "more than a mask", "sleeping", "smiling"];
+        const places = ["supermarket", "convenience store", "grocery store", "stock"];
+
+        const chosenNoun = nouns[Math.floor(Math.random() * nouns.length)];
+        const chosenPlace = places[Math.floor(Math.random() * places.length)];
+
+        $('#flipbook-en .random-noun').text(chosenNoun);
+        $('#flipbook-en .random-place').text(chosenPlace);
+    }
+
+    function selectLanguage(lang) {
+        $('#language-selection').hide();
+        $('#book-container').css('display', 'flex');
+        
+        if (lang === 'pt') {
+            $('#flipbook-pt').show();
+            $('#flipbook-en').hide();
+            
+            if (!ptInitialized) {
+                $("#flipbook-pt").turn({
+                    width: 1000,
+                    height: 600,
+                    autoCenter: true
+                });
+                ptInitialized = true;
+            }
+        } else {
+            $('#flipbook-pt').hide();
+            $('#flipbook-en').show();
+            
+            if (!enInitialized) {
+                randomizeEnWords();
+                $("#flipbook-en").turn({
+                    width: 1000,
+                    height: 600,
+                    autoCenter: true
+                });
+                enInitialized = true;
+            }
+        }
+    }
+
+    function goBack() {
+        $('#book-container').hide();
+        $('#language-selection').css('display', 'flex');
+        
+        $('#flipbook-pt').hide();
+        $('#flipbook-en').hide();
+    }
+
     $(document).ready(function() {
-      const nouns = ["a rock", "you", "free", "a task", "a track", "a dog", "a sack", "more than a mask", "sleeping", "smiling"];
-      const places = ["supermarket", "convenience store", "grocery store", "stock"];
-
-      const chosenNoun = nouns[Math.floor(Math.random() * nouns.length)];
-      const chosenPlace = places[Math.floor(Math.random() * places.length)];
-
-      $('.random-noun').text(chosenNoun);
-      $('.random-place').text(chosenPlace);
-
-      $(".flipbook").turn();
+        $('#language-selection').css('display', 'flex');
     });
   </script>
 </body>
